@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "68592AFB1B8D343F003954D3"
-               BuildableName = "Stainless II.app"
-               BlueprintName = "Stainless II"
-               ReferencedContainer = "container:Stainless II.xcodeproj">
+               BuildableName = "Stainless.app"
+               BlueprintName = "Stainless"
+               ReferencedContainer = "container:Stainless.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "68592B101B8D343F003954D3"
                BuildableName = "Stainless IITests.xctest"
                BlueprintName = "Stainless IITests"
-               ReferencedContainer = "container:Stainless II.xcodeproj">
+               ReferencedContainer = "container:Stainless.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "68592B101B8D343F003954D3"
                BuildableName = "Stainless IITests.xctest"
                BlueprintName = "Stainless IITests"
-               ReferencedContainer = "container:Stainless II.xcodeproj">
+               ReferencedContainer = "container:Stainless.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "68592AFB1B8D343F003954D3"
-            BuildableName = "Stainless II.app"
-            BlueprintName = "Stainless II"
-            ReferencedContainer = "container:Stainless II.xcodeproj">
+            BuildableName = "Stainless.app"
+            BlueprintName = "Stainless"
+            ReferencedContainer = "container:Stainless.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "68592AFB1B8D343F003954D3"
-            BuildableName = "Stainless II.app"
-            BlueprintName = "Stainless II"
-            ReferencedContainer = "container:Stainless II.xcodeproj">
+            BuildableName = "Stainless.app"
+            BlueprintName = "Stainless"
+            ReferencedContainer = "container:Stainless.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "68592AFB1B8D343F003954D3"
-            BuildableName = "Stainless II.app"
-            BlueprintName = "Stainless II"
-            ReferencedContainer = "container:Stainless II.xcodeproj">
+            BuildableName = "Stainless.app"
+            BlueprintName = "Stainless"
+            ReferencedContainer = "container:Stainless.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -51,7 +51,7 @@
 		684A14A61B8D558700D5BC63 /* PKHUDContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDContentView.swift; sourceTree = "<group>"; };
 		684A14A71B8D558700D5BC63 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		684A14A81B8D558700D5BC63 /* WindowRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowRootViewController.swift; sourceTree = "<group>"; };
-		68592AFC1B8D343F003954D3 /* Stainless II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stainless II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68592AFC1B8D343F003954D3 /* Stainless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stainless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68592B001B8D343F003954D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68592B011B8D343F003954D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68592B031B8D343F003954D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		68592AFD1B8D343F003954D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68592AFC1B8D343F003954D3 /* Stainless II.app */,
+				68592AFC1B8D343F003954D3 /* Stainless.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68592AFB1B8D343F003954D3 /* Stainless II */ = {
+		68592AFB1B8D343F003954D3 /* Stainless */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68592B1B1B8D343F003954D3 /* Build configuration list for PBXNativeTarget "Stainless II" */;
+			buildConfigurationList = 68592B1B1B8D343F003954D3 /* Build configuration list for PBXNativeTarget "Stainless" */;
 			buildPhases = (
 				68592AF81B8D343F003954D3 /* Sources */,
 				68592AF91B8D343F003954D3 /* Frameworks */,
@@ -196,9 +196,9 @@
 			);
 			dependencies = (
 			);
-			name = "Stainless II";
+			name = Stainless;
 			productName = "Stainless II";
-			productReference = 68592AFC1B8D343F003954D3 /* Stainless II.app */;
+			productReference = 68592AFC1B8D343F003954D3 /* Stainless.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 68592AF71B8D343F003954D3 /* Build configuration list for PBXProject "Stainless II" */;
+			buildConfigurationList = 68592AF71B8D343F003954D3 /* Build configuration list for PBXProject "Stainless" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,7 +228,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68592AFB1B8D343F003954D3 /* Stainless II */,
+				68592AFB1B8D343F003954D3 /* Stainless */,
 			);
 		};
 /* End PBXProject section */
@@ -390,7 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Stainless II/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Stainless;
 			};
 			name = Debug;
 		};
@@ -400,14 +400,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Stainless II/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Stainless;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68592AF71B8D343F003954D3 /* Build configuration list for PBXProject "Stainless II" */ = {
+		68592AF71B8D343F003954D3 /* Build configuration list for PBXProject "Stainless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68592B191B8D343F003954D3 /* Debug */,
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68592B1B1B8D343F003954D3 /* Build configuration list for PBXNativeTarget "Stainless II" */ = {
+		68592B1B1B8D343F003954D3 /* Build configuration list for PBXNativeTarget "Stainless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68592B1C1B8D343F003954D3 /* Debug */,
