@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A235d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Stainless_II" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r2U-qx-cDV">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem enabled="NO" image="UIButtonBarArrowLeft.png" id="WVM-Uc-GT6">
+                                        <connections>
+                                            <action selector="backBarButtonItem:" destination="vXZ-lx-hvc" id="opC-uV-kV1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="5Rw-n4-aLD"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Cbd-2k-3bx"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3AA-xG-deb"/>
+                                    <barButtonItem enabled="NO" image="UIButtonBarArrowRight.png" id="hnf-uU-B9m">
+                                        <connections>
+                                            <action selector="forwardBarButtonItem:" destination="vXZ-lx-hvc" id="onF-vE-TQF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sDI-oW-3Kx"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YNc-Am-QZ3"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="JDE-JE-CRl"/>
+                                    <barButtonItem systemItem="action" id="gAq-6G-Quf">
+                                        <connections>
+                                            <action selector="shareBarButtonItem:" destination="vXZ-lx-hvc" id="yn7-U0-1iz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qhM-ir-NFM"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="MdK-bc-G2W"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2td-gj-UQE"/>
+                                    <barButtonItem systemItem="bookmarks" id="FT1-pJ-qZW">
+                                        <connections>
+                                            <action selector="historyBarButtonItem:" destination="vXZ-lx-hvc" id="bHn-QK-Q2F"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="jcJ-6k-Yh6"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="6mT-DP-YY7"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2Sg-or-NPI"/>
+                                    <barButtonItem image="TabButton.png" id="sPD-v8-K2K"/>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleAspectFit" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q9t-NS-ZFh">
+                                <rect key="frame" x="0.0" y="62" width="414" height="630"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="whU-1o-QJF"/>
+                                    <outletCollection property="gestureRecognizers" destination="PFO-bp-Dwt" appends="YES" id="eBL-yZ-p6v"/>
+                                    <outletCollection property="gestureRecognizers" destination="D71-Om-bbk" appends="YES" id="eUz-Cb-Gqn"/>
+                                </connections>
+                            </webView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dwu-lt-LyJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search or enter website name" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="JeU-uk-Llm">
+                                        <rect key="frame" x="8" y="27" width="398" height="30"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="webSearch" returnKeyType="go"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="vXZ-lx-hvc" id="aUc-Bc-3h3"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beK-Ud-JO4">
+                                        <rect key="frame" x="346" y="27" width="60" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iz9-NR-PcU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYq-DF-Dwk" customClass="AHB" customModule="Stainless_II" customModuleProvider="target">
+                                        <rect key="frame" x="375" y="26" width="30.5" height="32"/>
+                                        <animations/>
+                                        <state key="normal" image="refresh.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="reloadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FlD-cf-QKf"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="URLMenuSearchMagnifier.png" translatesAutoresizingMaskIntoConstraints="NO" id="7ro-L7-rfn">
+                                        <rect key="frame" x="72" y="33" width="14" height="14"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6d-pm-ao0" customClass="AHB" customModule="Stainless_II" customModuleProvider="target">
+                                        <rect key="frame" x="375" y="26" width="30.5" height="32"/>
+                                        <animations/>
+                                        <state key="normal" image="NavigationBarStopLoading.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="stopLoadingButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GGc-Au-UQw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notice message." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5m-0N-2kl">
+                                <rect key="frame" x="16" y="141" width="382" height="130"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.41568627450980394" green="0.42352941176470588" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OFz-5p-yY6">
+                                <rect key="frame" x="0.0" y="62" width="414" height="2"/>
+                                <animations/>
+                            </progressView>
+                            <tableView clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xsj-AH-wtS">
+                                <rect key="frame" x="0.0" y="62" width="414" height="630"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="regularCell" id="E1E-6F-kXT" customClass="SCE" customModule="Stainless_II" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E1E-6F-kXT" id="hOQ-pd-Pjw">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UITabBarSearchTemplate.png" translatesAutoresizingMaskIntoConstraints="NO" id="N5D-mG-kzQ">
+                                                    <rect key="frame" x="22" y="15" width="14" height="14"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6T-lH-SRg">
+                                                    <rect key="frame" x="44" y="12" width="362" height="20"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="K6T-lH-SRg" id="lDk-SF-70P"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="CM5-Vz-Oq6"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="2xF-IH-WXq"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="autoCompleteTableView" destination="xsj-AH-wtS" id="4pu-uo-IgN"/>
+                        <outlet property="backBarButtonItem" destination="WVM-Uc-GT6" id="ssO-X0-nNg"/>
+                        <outlet property="bottomToolbar" destination="r2U-qx-cDV" id="Vaw-2e-Or8"/>
+                        <outlet property="cancelButton" destination="beK-Ud-JO4" id="bf5-YL-cYt"/>
+                        <outlet property="forwardBarButtonItem" destination="hnf-uU-B9m" id="rh7-pk-to7"/>
+                        <outlet property="historyBarButtonItem" destination="FT1-pJ-qZW" id="dXD-YO-ad7"/>
+                        <outlet property="linkProgressView" destination="OFz-5p-yY6" id="Sle-c8-GAE"/>
+                        <outlet property="linkTextField" destination="JeU-uk-Llm" id="N68-oo-rDm"/>
+                        <outlet property="noticeMessageLabel" destination="e5m-0N-2kl" id="OhN-ma-0fz"/>
+                        <outlet property="reloadButton" destination="SYq-DF-Dwk" id="c0F-wa-W6X"/>
+                        <outlet property="searchImage" destination="7ro-L7-rfn" id="xOd-UI-Oue"/>
+                        <outlet property="shareBarButtonItem" destination="gAq-6G-Quf" id="Pml-98-1mj"/>
+                        <outlet property="stopLoadingButton" destination="D6d-pm-ao0" id="Dkf-oh-xC6"/>
+                        <outlet property="swipeLeftGestureRecognizer" destination="D71-Om-bbk" id="9yX-uD-5nC"/>
+                        <outlet property="swipeRightGestureRecognizer" destination="PFO-bp-Dwt" id="RQ8-Ia-bA7"/>
+                        <outlet property="webView" destination="q9t-NS-ZFh" id="M6J-S3-SRd"/>
+                        <segue destination="hhF-y6-ye9" kind="show" identifier="historySegue" id="PpL-Db-qku"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="PFO-bp-Dwt">
+                    <connections>
+                        <action selector="swipeRightGestureRecognizer:" destination="vXZ-lx-hvc" id="vpe-Ox-xoU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="D71-Om-bbk">
+                    <connections>
+                        <action selector="swipeLeftGestureRecognizer:" destination="vXZ-lx-hvc" id="YdM-fV-IEe"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+        </scene>
+        <!--HC-->
+        <scene sceneID="igf-uZ-xoS">
+            <objects>
+                <viewController id="hhF-y6-ye9" customClass="HC" customModule="Stainless_II" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ttM-uE-82s"/>
+                        <viewControllerLayoutGuide type="bottom" id="pnn-cg-gy3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ek5-Zr-M7n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4kF-To-Tje">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ds-x8-Och">
+                                        <rect key="frame" x="107" y="26" width="200" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vE9-m0-plq">
+                                        <rect key="frame" x="360" y="26" width="46" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButton:" destination="hhF-y6-ye9" eventType="touchUpInside" id="c8V-MK-GfE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="G7u-VF-Z36">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="historyCell" rowHeight="50" id="rhj-Zo-DyT" customClass="HCE" customModule="Stainless_II" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rhj-Zo-DyT" id="SSZ-SA-m8J">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hi - Google Search" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPU-jb-8n5">
+                                                    <rect key="frame" x="8" y="8" width="398" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.google.com/search?q=hi&amp;gws_rd=ssl&amp;norc=1&amp;zx=1440610475757" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KG4-Yd-jDY">
+                                                    <rect key="frame" x="8" y="29" width="398" height="14.5"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <outlet property="subtitleLabel" destination="KG4-Yd-jDY" id="o4i-sV-ClG"/>
+                                            <outlet property="titleLabel" destination="cPU-jb-8n5" id="ZQe-PU-4aE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hhF-y6-ye9" id="csO-kU-pth"/>
+                                    <outlet property="delegate" destination="hhF-y6-ye9" id="Q6n-0a-Rjb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="doneButton" destination="vE9-m0-plq" id="jRk-la-OOz"/>
+                        <outlet property="historyTableView" destination="G7u-VF-Z36" id="2PQ-kf-L43"/>
+                        <segue destination="vXZ-lx-hvc" kind="presentation" identifier="selectLinkSegue" modalTransitionStyle="crossDissolve" id="VQd-Qe-Oe5"/>
+                        <segue destination="vXZ-lx-hvc" kind="presentation" identifier="doneButtonSegue" modalTransitionStyle="crossDissolve" id="PPu-Ra-deg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U4Y-rx-AV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808" y="279"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NavigationBarStopLoading.png" width="13" height="13"/>
+        <image name="TabButton.png" width="24" height="24"/>
+        <image name="UIButtonBarArrowLeft.png" width="10" height="18"/>
+        <image name="UIButtonBarArrowRight.png" width="10" height="18"/>
+        <image name="UITabBarSearchTemplate.png" width="24" height="24"/>
+        <image name="URLMenuSearchMagnifier.png" width="13" height="13"/>
+        <image name="refresh.png" width="36" height="36"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="VQd-Qe-Oe5"/>
+    </inferredMetricsTieBreakers>
+</document>
