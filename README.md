@@ -4,7 +4,7 @@ Familiarity in simplicity.
 
 ##Dynamic HTML Caching
 
-With your permission, **Stainles** will automatically cache your most frequently visited web pages as HTML. By doing this, upon a future load, objects on the page would load significantly faster.
+With your permission, **Stainles** will automatically cache your most frequently visited web pages as HTML. By doing this, upon a future load, objects on the page are able to load significantly faster.
 
 ##Simple Design
 
