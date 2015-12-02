@@ -12,7 +12,7 @@ The interface design of **Stainless** is familliar, yet new in a way which makes
 
 ##Updated Performance
 
-**Stainless** uses Nitrous for JavaScript, and fully supports HTML 5. Compatibility with websites is comparable to Mobile Safari.*
+**Stainless** uses Nitrous for JavaScript, and fully supports HTML 5. Website compatibility is comparable to Mobile Safari.*
 ######*Trials were conducted through use of [The Acid3 Test] (http://acid3.acidtests.org/).
 
 ##Disclaimer on Privacy Concerns
