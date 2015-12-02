@@ -1,56 +1,40 @@
 <img src="Placeholder Icon.png" width="200" height="200" align="center" /> 
-# Prodigus
-Experience the ultimate in YouTube, experience **Prodigus**.
+# Stainless
+fUCK SLOGANS.
 
-##Dynamic Video Loading
+##Dynamic HTML Caching
 
-In a bad area? **Prodigus** will automatically switch to a lower resolution to buffer videos more quickly, and switch back to a higher resolution when your signal improves. 
+With your permission, **Stainles** will automatically cache your most frequently visited web pages as HTML. By doing this, upon a future load, objects on the page would load significantly faster.
 
-##No Advertisements
+##Simple Design
 
-Get used to ***never*** seeing an advertisement before, after, or during a video again. 
+The interface design of **Stainless** is familliar, yet new in a way which makes it plesant to use on a daily basis. 
 
-##Inspired by Stainless
+##Updated Performance
 
-The extremely quick loading times that have been praised in **Stainless** are built right into **Prodigus**.
+**Stainless** uses Nitrous for JavaScript, and fully supports HTML 5. Compatibility with websites is comparable to Mobile Safari.
 
----------------------------------------------------------------------------------------------------------------------
-
-#Update 2.0.0.971
-######July 23, 2015
-Read about this update [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
-
-**Prodigus II** brings an entirely new design to the table, with updated compatibility across multiple devices. **Prodigus II** packs in many new features and improves upon virtually every aspect of the previous version.
-
-Countless hours of time have been spent to bring you **Prodigus II**. We hope you enjoy this update. If you have any questions or concerns, please contact us.
-
-##What's New
-
-###Video Minimization.
-With video minimization, you can view your favorite content without ever missing a beat. Minimizing videos means that you will be able to watch a video while looking for others.
-
-###Custom Controls.
-A more responsive and arguably nicer looking player control scheme has been added to **Prodigus**, allowing you to do more with your videos and have a better experience while doing so. 
-
-###Landscape Fullscreen.
-The landscape switching issues that previously plagued **Prodigus** have been fully fixed. To enter fullscreen mode on a video, just tilt your device into landscape mode; the video will adjust its size accordingly.
+##Disclaimer on Privacy Concerns
+**Stainless** does not save any cached pages without your permission, and does not in any way use any data collected through the caching of these pages for malicious intent. Cached pages are removed after 10 days without access.
 
 ---------------------------------------------------------------------------------------------------------------------
 
 #Update 1.0.1
-######April 15, 2014
-Read about this update [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
+######September 19, 2013
+Read about this update [here](https://itunes.apple.com/us/app/stainless-browser/id674154689?mt=8).
 
 ##What's New
 
-###100% Less Blurry Labels!
+###New Icon
 
-###Home Button for Faster Access to Pages
+###Native iPad Support
 
-###New User Interface Changes
+###Removal of '3.5-Inch Warning'
+
+###Icons for the 'Home', 'History' and 'Preferences' Buttons
 
 ###Various Bug Fixes
 
 ---------------------------------------------------------------------------------------------------------------------
 
-######All information is pulled from Prodigus' page on the iOS App Store. You can visit this page [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
+######All information is pulled from Stainless' page on the iOS App Store. You can visit this page [here](https://itunes.apple.com/us/app/stainless-browser/id674154689?mt=8).
