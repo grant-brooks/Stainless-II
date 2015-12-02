@@ -13,7 +13,7 @@ The interface design of **Stainless** is familliar, yet new in a way which makes
 ##Updated Performance
 
 **Stainless** uses Nitrous for JavaScript, and fully supports HTML 5. Compatibility with websites is comparable to Mobile Safari.*
-######*Tests were conducted through use of [The Acid3 Test] (http://acid3.acidtests.org/).
+######*Trials were conducted through use of [The Acid3 Test] (http://acid3.acidtests.org/).
 
 ##Disclaimer on Privacy Concerns
 **Stainless** does not save any cached pages without your permission, and does not in any way use any data collected through the caching of these pages for malicious intent. Cached pages are removed after 10 days without access.
