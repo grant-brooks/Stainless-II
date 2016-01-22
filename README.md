@@ -16,7 +16,7 @@ The interface design of **Stainless** is familliar, yet new in a way which makes
 ######*Trials were conducted through use of [The Acid Tests] (http://acid1.acidtests.org/).
 
 ##Disclaimer on Privacy Concerns
-**Stainless** does not save any cached pages without your permission, and does not in any way use any data collected through the caching of these pages for malicious intent. Cached pages are removed after 10 days without access.
+**Stainless** does not save any cached pages without your permission, and does not in any way use any data collected through the caching of these pages with/for malicious intent. Cached pages are removed after 10 days without access.
 
 ---------------------------------------------------------------------------------------------------------------------
 
